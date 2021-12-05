@@ -161,7 +161,7 @@ body {
 
 /* HOMEPAGE NAV */
 
-.home__nav {
+.nav {
     padding: 2rem 4rem;
     background-color: #EADCD1;
 }
@@ -370,6 +370,7 @@ CHOSEN PROMPT PAGE
 .chosen-prompt__anonymous-response-user {
     font-weight: 700;
 }
+
 
 
 /* FOOTER */

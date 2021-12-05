@@ -129,8 +129,10 @@ if ($_POST['response'] != '' && $_SESSION['user_id'] != '') {
 				<label for="response">Write your response here</label>
 				<input type="textarea" name="response" id="response">
 				<input type="hidden" name="prompt_id" value="<?php echo $prompt_id; ?>" />
-				<input type="submit" name="privatePost" id="private_post" class="post_button" value="Post Privately">
-				<input type="submit" name="sharePublicly" id="public_post" class="post_button" value="Share Publicly">
+				<div>
+					<input type="submit" name="privatePost" id="private_post" class="post_button" value="Post Privately">
+					<input type="submit" name="sharePublicly" id="public_post" class="post_button" value="Share Publicly">
+				</div>
 			</form>
 		</div>
 
