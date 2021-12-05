@@ -1,9 +1,17 @@
+
 .login-body
 {
     margin: 0;
     padding: 0;
     background-color:#EADCD1;
     font-family: 'Open Sans';
+}
+
+.login-title{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif
 }
 
 .login{
@@ -14,7 +22,7 @@
         padding: 80px;
         background: #CDD2C4;
         border-radius: 15px ;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Open Sans'
 
 }
 .login-h2{
@@ -22,23 +30,37 @@
     color: #277582;
     padding: 20px;
 }
-.login-label{
+.login-username{
     color: black;
-    font-size: 17px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Open Sans'
 }
+
+.login-Password{
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Open Sans'
+}
+
 #Username{
     width: 300px;
     height: 30px;
     border: none;
     border-radius: 3px;
     padding-left: 8px;
+    font-size: 10px
+    font-family: 'Open Sans'
 }
 #Pass{
-    width: 300px;
-    height: 30px;
-    border: none;
-    border-radius: 3px;
-    padding-left: 8px;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  font-size: 10px
+  font-family: 'Open Sans'
 
 }
 #log{
@@ -48,6 +70,7 @@
     border-radius: 17px;
     padding-left: 7px;
     color: black;
+    font-family: 'Open Sans'
 
 
 }
@@ -81,5 +104,3 @@
 .home__hero {
     width: 100%;
 }
-
-
