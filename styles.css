@@ -58,3 +58,25 @@ a{
     float: right;
     background-color: grey;
 }
+
+/* HOMEPAGE */
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.home__nav {
+    display: flex;
+    width: 100%;
+}
+
+
+.home__hero {
+    width: 100%;
+}
+
+
