@@ -1,9 +1,9 @@
-body
+.login-body
 {
     margin: 0;
     padding: 0;
     background-color:#EADCD1;
-    font-family: 'Arial';
+    font-family: 'Open Sans';
 }
 
 .login{
@@ -14,18 +14,19 @@ body
         padding: 80px;
         background: #CDD2C4;
         border-radius: 15px ;
+        font-family: 'Open Sans', sans-serif;
 
 }
-h2{
+.login-h2{
     text-align: center;
     color: #277582;
     padding: 20px;
 }
-label{
+.login-label{
     color: black;
     font-size: 17px;
 }
-#Uname{
+#Username{
     width: 300px;
     height: 30px;
     border: none;
