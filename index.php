@@ -1,5 +1,28 @@
+<?php session_start(); 
+if ($_GET['logout'] == 1) {
+	// clear session variables
+	$_SESSION['user_id'] = '';
+	$_SESSION['email'] = '';
+	$_SESSION['first_name'] = '';
+	$_SESSION['last_name'] = '';
+	$_SESSION['full_name'] = '';
+	$_SESSION['user_role'] = '';
+	$_SESSION['school'] = '';
+	$_SESSION['per_week_goal'] = '';
+	$_SESSION['per_month_goal'] = '';
+	$_SESSION['per_year_goal'] = '';
+
+	// remove all session variables
+	session_unset();
+	
+	// destroy the session
+	session_destroy();
+} elseif ($_SESSION['user_id'] != '') {
+	header('Location: home.php');
+}
+?>
 <?php $title = "Digital Diary"; ?>
-<?php require_once('header.php'); ?>
+<?php require_once('include/header.php'); ?>
 	<div class="home__hero">
 		<div class="home__hero-text">
 			<h1 class="home__heading">Tech Together University - Digital Journal</h1>
@@ -39,4 +62,4 @@
 	<button type="button" class="join-button">
 			View Your Digital Diary
 	</button>
-<?php require_once('footer.php'); ?>
+<?php require_once('include/footer.php'); ?>

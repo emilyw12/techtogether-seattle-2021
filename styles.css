@@ -93,6 +93,66 @@ body {
     font-size: 17px;
 }
 
+
+/* =================
+
+    FEED1
+
+=================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;700&family=Open+Sans:wght@700&family=Poppins:ital,wght@0,300;1,300&family=Quicksand:wght@400;600&display=swap');
+.feed_body{
+  padding: 2px !important; 
+  margin: 0 !important;
+  text-align: center;
+  color: grey; 
+}
+
+.feed_refresh {
+    /*text-decoration: none;*/
+    color: black;
+    font-weight: 600;
+    transition: color .5s;
+    margin-bottom: 1rem; 
+}
+
+.feed_title{
+  font-family: "Quicksand", sans-serif;
+  font-size: 35px; 
+}
+.feed_p{
+  font-family: "Quicksand", sans-serif;
+  font-size: larger; 
+}
+.feed_prompt {
+  padding: 10px;
+  width: 80%; 
+  margin: 50px auto; 
+  text-decoration: none !important;
+  position: relative;
+  font-size: larger;
+  text-align: center;
+  color: black !important;
+  border-radius: 35px;
+} 
+.feed_prompt_odd{ 
+  background: #EADCD1; 
+}
+.feed_prompt_even{ 
+  background: #CDD2C4;  
+} 
+
+
+
+
+
+
+
+
+
+
+
+
 /* =================
 
     HOMEPAGE
@@ -275,19 +335,22 @@ CHOSEN PROMPT PAGE
     border-radius: 10px;
 }
 
-.chosen-prompt__response-form #post {
+.chosen-prompt__response-form .post_button {
     width: 30%;
     padding: .8rem;
     background-color: #CDD2C4;
-    border: none;
+    border: green 1px;
     border-radius: 50px;
     font-weight: 700;
     font-family: 'Quicksand', sans-serif;
     transition: background-color .5s;
+    display: inline-block !important;
+    margin-right: 20px !important;
 }
 
-.chosen-prompt__response-form #post:hover {
+.chosen-prompt__response-form .post_button:hover {
     background-color:  #9AA496;
+    color: white;
 }
 
 .decorative-line {
