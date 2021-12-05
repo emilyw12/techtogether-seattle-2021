@@ -51,11 +51,11 @@
 
 
 }
-span{
+/*span{
     color: white;
     font-size: 17px;
-}
-a{
+}*/
+.login-link {
     float: right;
     background-color: grey;
 }
@@ -64,6 +64,7 @@ a{
 
 .nav-list {
     list-style: none;
+
 }
 
 .nav-link {
@@ -73,6 +74,7 @@ a{
 .home__nav {
     display: flex;
     width: 100%;
+
 }
 
 
