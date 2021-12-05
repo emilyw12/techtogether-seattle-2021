@@ -101,85 +101,46 @@ body {
 =================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;700&family=Open+Sans:wght@700&family=Poppins:ital,wght@0,300;1,300&family=Quicksand:wght@400;600&display=swap');
-body{
-  padding: 0;
-  margin: 0;
+.feed_body{
+  padding: 2px !important; 
+  margin: 0 !important;
+  text-align: center;
+  color: grey; 
 }
 
+.feed_refresh {
+    /*text-decoration: none;*/
+    color: black;
+    font-weight: 600;
+    transition: color .5s;
+    margin-bottom: 1rem; 
+}
 
-
-.feed1_title{
+.feed_title{
   font-family: "Quicksand", sans-serif;
-  font-size: 35px;
-  color: grey;
-  text-align: center;
+  font-size: 35px; 
 }
-.feed1_p{
+.feed_p{
   font-family: "Quicksand", sans-serif;
-  font-size: 20px;
-  color: grey;
-  text-align: center;
+  font-size: larger; 
 }
-.feed1_prompt1{
-  width: 430px;
-  height: 80px;
-  margin: 50px auto;
-  background: #EADCD1;
+.feed_prompt {
+  padding: 10px;
+  width: 80%; 
+  margin: 50px auto; 
+  text-decoration: none !important;
   position: relative;
-  font-size: 17px;
-  color: grey;
+  font-size: larger;
   text-align: center;
+  color: black !important;
+  border-radius: 35px;
+} 
+.feed_prompt_odd{ 
+  background: #EADCD1; 
 }
-.feed1_prompt2{
-  width: 430px;
-  height: 80px;
-  margin: 50px auto;
-  background: #CDD2C4;
-  position: relative;
-  font-size: 17px;
-  color: grey;
-  text-align: center;
-}
-.feed1_prompt3{
-  width: 430px;
-  height: 80px;
-  margin: 50px auto;
-  background: #EADCD1;
-  position: relative;
-  font-size: 17px;
-  color: grey;
-  text-align: center;
-}
-.feed1_prompt4{
-  width: 430px;
-  height: 80px;
-  margin:50px auto;
-  background: #CDD2C4;
-  position: relative;
-  font-size: 17px;
-  color: grey;
-  text-align: center;
-}
-.feed1_prompt5{
-  width: 430px;
-  height: 80px;
-  margin: 50px auto;
-  background: #EADCD1;
-  position: relative;
-  font-size: 17px;
-  color: grey;
-  text-align: center;
-}
-.feed1_prompt6{
-  width: 430px;
-  height: 80px;
-  margin: 50px auto;
-  background: #CDD2C4;
-  position: relative;
-  font-size: 17px;
-  color: grey;
-  text-align: center;
-}
+.feed_prompt_even{ 
+  background: #CDD2C4;  
+} 
 
 
 
@@ -374,19 +335,22 @@ CHOSEN PROMPT PAGE
     border-radius: 10px;
 }
 
-.chosen-prompt__response-form #post {
+.chosen-prompt__response-form .post_button {
     width: 30%;
     padding: .8rem;
     background-color: #CDD2C4;
-    border: none;
+    border: green 1px;
     border-radius: 50px;
     font-weight: 700;
     font-family: 'Quicksand', sans-serif;
     transition: background-color .5s;
+    display: inline-block !important;
+    margin-right: 20px !important;
 }
 
-.chosen-prompt__response-form #post:hover {
+.chosen-prompt__response-form .post_button:hover {
     background-color:  #9AA496;
+    color: white;
 }
 
 .decorative-line {
