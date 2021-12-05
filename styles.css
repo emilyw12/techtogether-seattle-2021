@@ -1,17 +1,20 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;700&family=Open+Sans:wght@700&family=Poppins:ital,wght@0,300;1,300&family=Quicksand&display=swap');
+
+
 .login-body
 {
     margin: 0;
     padding: 0;
     background-color:#EADCD1;
-    font-family: 'Open Sans';
+    font-family: 'Quicksand', sans-serif;
 }
 
 .login-title{
   text-align: center;
   color: black;
   font-size: 30px;
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Quicksand', sans-serif;
 }
 
 .login{
@@ -22,7 +25,7 @@
         padding: 80px;
         background: #CDD2C4;
         border-radius: 15px ;
-        font-family: 'Open Sans'
+        font-family: 'Quicksand', sans-serif;
 
 }
 .login-h2{
@@ -34,14 +37,14 @@
     color: black;
     font-size: 18px;
     text-align: center;
-    font-family: 'Open Sans'
+    font-family: 'Quicksand', sans-serif;
 }
 
 .login-Password{
   color: black;
   font-size: 18px;
   text-align: center;
-  font-family: 'Open Sans'
+  font-family: 'Quicksand', sans-serif;
 }
 
 #Username{
@@ -51,7 +54,7 @@
     border-radius: 3px;
     padding-left: 8px;
     font-size: 10px
-    font-family: 'Open Sans'
+    font-family: 'Quicksand', sans-serif;
 }
 #Pass{
   width: 300px;
@@ -60,7 +63,7 @@
   border-radius: 3px;
   padding-left: 8px;
   font-size: 10px
-  font-family: 'Open Sans'
+  font-family: 'Quicksand', sans-serif;
 
 }
 #log{
@@ -70,7 +73,7 @@
     border-radius: 17px;
     padding-left: 7px;
     color: black;
-    font-family: 'Open Sans'
+    font-family: 'Quicksand', sans-serif;
 
 
 }
