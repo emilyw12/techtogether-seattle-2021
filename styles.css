@@ -93,6 +93,105 @@ body {
     font-size: 17px;
 }
 
+
+/* =================
+
+    FEED1
+
+=================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;700&family=Open+Sans:wght@700&family=Poppins:ital,wght@0,300;1,300&family=Quicksand:wght@400;600&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.feed1_title{
+  font-family: "Quicksand", sans-serif;
+  font-size: 35px;
+  color: grey;
+  text-align: center;
+}
+.feed1_p{
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+.feed1_prompt1{
+  width: 430px;
+  height: 80px;
+  margin: 50px auto;
+  background: #EADCD1;
+  position: relative;
+  font-size: 17px;
+  color: grey;
+  text-align: center;
+}
+.feed1_prompt2{
+  width: 430px;
+  height: 80px;
+  margin: 50px auto;
+  background: #CDD2C4;
+  position: relative;
+  font-size: 17px;
+  color: grey;
+  text-align: center;
+}
+.feed1_prompt3{
+  width: 430px;
+  height: 80px;
+  margin: 50px auto;
+  background: #EADCD1;
+  position: relative;
+  font-size: 17px;
+  color: grey;
+  text-align: center;
+}
+.feed1_prompt4{
+  width: 430px;
+  height: 80px;
+  margin:50px auto;
+  background: #CDD2C4;
+  position: relative;
+  font-size: 17px;
+  color: grey;
+  text-align: center;
+}
+.feed1_prompt5{
+  width: 430px;
+  height: 80px;
+  margin: 50px auto;
+  background: #EADCD1;
+  position: relative;
+  font-size: 17px;
+  color: grey;
+  text-align: center;
+}
+.feed1_prompt6{
+  width: 430px;
+  height: 80px;
+  margin: 50px auto;
+  background: #CDD2C4;
+  position: relative;
+  font-size: 17px;
+  color: grey;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* =================
 
     HOMEPAGE
